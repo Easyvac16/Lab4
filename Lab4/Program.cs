@@ -1,11 +1,22 @@
-﻿namespace Lab4
-{
-    internal class Program
+﻿
+using Numbers;
+using GuessTheNumberGame;
+using Geometry;
+using PseudoTextGenerator;
+
+namespace Lab4
+{   
+    
+    class Program
     {
         static void Main()
         {
-            cs1.task_1();
-            cs2.task_2();
+
+            cs1.Info();
+            cs2.DisplayInfoFigure();
+            cs3.Start();
+            c4.PsevdoText();
+
         }
     }
 }
